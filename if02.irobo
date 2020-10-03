@@ -1,0 +1,6 @@
+forward(2)
+if (frontIsObstacle){
+    right
+} else {
+    forward(1)
+}
