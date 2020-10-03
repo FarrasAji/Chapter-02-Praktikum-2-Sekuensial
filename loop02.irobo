@@ -1,0 +1,9 @@
+paintWhite
+repeat(4){
+    forward(2)
+    repeat(3){
+        forward(1)
+        left
+    }
+}
+stopPainting
