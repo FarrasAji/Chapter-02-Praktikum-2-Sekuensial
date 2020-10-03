@@ -1,0 +1,5 @@
+east(2)
+repeat() 
+{pickUp west(0) putDown east(1)
+if(frontIsClear) {break}}
+forward(2)
