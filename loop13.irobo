@@ -1,0 +1,8 @@
+repeatWhile(leftIsBlack){
+    paintWhite
+    forward(3)
+    if(frontIsClear){
+        stopPainting
+        forward(1)
+    }
+}
