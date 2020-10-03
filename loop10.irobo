@@ -1,0 +1,16 @@
+east(7)
+repeatWhile(frontIsWhite){
+    forward(1)
+    if(leftIsWhite){
+        left
+        forward(1)
+    }
+    if(rightIsWhite){
+        right
+        forward(1)
+    }
+    if(leftIsWhite){
+        left
+        forward(1)
+    }
+}
