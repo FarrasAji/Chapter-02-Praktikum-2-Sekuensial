@@ -1,0 +1,4 @@
+forward(3)
+if (frontIsObstacle) {
+right
+}
