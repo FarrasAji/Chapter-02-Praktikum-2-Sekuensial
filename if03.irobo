@@ -1,0 +1,7 @@
+if (frontIsBeacon){
+    east(2)
+} else if (frontIsClear) {
+    west(2)
+} else if (~frontIsBeacon){
+    south(2)
+}
