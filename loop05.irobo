@@ -1,0 +1,5 @@
+east(2)
+repeatWhile(frontIsBeacon)
+{pickUp west(0)
+putDown east(1)}
+east(2)
