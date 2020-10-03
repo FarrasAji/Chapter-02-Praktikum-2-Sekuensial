@@ -1,0 +1,7 @@
+repeatWhile(frontIsClear){
+    forward(1)
+    if(frontIsWhite){
+        forward(1)
+        right
+    }
+}
