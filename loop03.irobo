@@ -1,0 +1,10 @@
+repeat(){
+	forward(1)
+	if (leftIsWhite){
+	    break
+    }
+}
+if (leftIsWhite){
+	left
+	forward(1)
+}
