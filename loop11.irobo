@@ -1,0 +1,22 @@
+right
+repeat(){
+    if(leftIsBeacon){
+        left
+        pickUp
+        right
+        right
+        putDown
+        left
+    } else if(rightIsBeacon){
+        right
+        pickUp
+        left
+        left
+        putDown
+        right
+    }
+    forward(1)
+    if(frontIsObstacle){
+        break
+    }
+}
