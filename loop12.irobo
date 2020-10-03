@@ -1,0 +1,17 @@
+left
+repeatWhile(frontIsWhite){
+    forward(1)
+    if(frontIsObstacle){
+        pickUp
+        forward(1)
+    }
+    if(frontIsBlack){
+        putDown
+    }
+    if(rightIsWhite){
+        right
+    }
+    if(leftIsWhite){
+        left
+    }
+}
